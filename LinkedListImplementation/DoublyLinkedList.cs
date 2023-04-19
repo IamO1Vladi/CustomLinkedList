@@ -194,6 +194,18 @@ namespace LinkedListImplementation
 
         }
 
+        //public void AddAfter(Node<T> nodeInListm, T value)
+        //{
+
+        //    Node<T> newNode = new Node<T>(value);
+
+        //    newNode.Previous = nodeInListm;
+        //    newNode.Next = nodeInListm.Next;
+        //    nodeInListm.Next.Previous=newNode;
+        //    nodeInListm.Next=newNode;
+
+        //}
+
         //IEnumerator and IEnumerable implementation
         private int position = -1;
         public object Current
